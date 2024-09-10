@@ -1,0 +1,34 @@
+/* CSS */
+.btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 100vh;
+    background-color: #f8f9fa; /* Light background color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn h1 {
+    font-size: 24px;
+    color: #333; /* Dark text color */
+    margin-bottom: 15px;
+  }
+  
+  .btn button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4285F4; /* Google blue color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn button:hover {
+    background-color: #357ae8; /* Darker blue for hover */
+  }
+  
